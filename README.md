@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 ## **3. Model Training**
 
-## Please make sure that the ( model/ ) directory exist.
+## Please make sure that the ( models/ ) directory exist.
 
 **3.1 Train Traditional ML Models**
 
