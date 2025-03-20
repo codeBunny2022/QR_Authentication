@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 ## **3. Model Training**
 
-## Please make sure that the ( models/ ) directory exist.
+## Please make sure that the ( models/ ) directory exist there might be some issue in training due to cuda , please execute these scripts again and again if issue is encountered regarding no file to write weights in. 
 
 **3.1 Train Traditional ML Models**
 
@@ -108,6 +108,7 @@ npm start
 ## **6. Testing the Application**
 
 ### **6.1 Upload an Image via UI**
+
 
 
 
