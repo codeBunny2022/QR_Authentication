@@ -3,8 +3,6 @@
 This project implements a **QR Code Authentication System** that classifies QR codes as **First Print (Real)** or **Second Print (Fake)** using **Machine Learning (Random Forest, SVM) and Deep Learning (CNN)**.
 
 
----
-
 ## **1. Project Structure**
 
 ```
@@ -28,8 +26,6 @@ QR_Authentication/
 ```
 
 
----
-
 ## **2. Installation & Setup**
 
 ### **2.1 Prerequisites**
@@ -47,11 +43,11 @@ pip install -r requirements.txt
 ```
 
 
----
-
 ## **3. Model Training**
 
-### **3.1 Train Traditional ML Models**
+## Please make sure that the ( model/ ) directory exist.
+
+**3.1 Train Traditional ML Models**
 
 ```sh
 python3 src/traditional_model.py
@@ -67,8 +63,6 @@ python3 src/deep_learning.py
 
 This will train a **CNN model** and save it in `models/cnn_model.h5`.
 
-
----
 
 ## **4. Running the Backend (Flask API)**
 
@@ -87,8 +81,6 @@ python3 app.py
 curl -X POST -F "file=@test_image.png" http://127.0.0.1:5000/predict
 ```
 
-
----
 
 ## **5. Running the Frontend (React UI)**
 
@@ -113,11 +105,10 @@ npm start
 ✅ React UI should now be available at **<http://localhost:3000>**.
 
 
----
-
 ## **6. Testing the Application**
 
 ### **6.1 Upload an Image via UI**
+
 
 
 1. Open **<http://localhost:3000>** in your browser.
@@ -133,10 +124,6 @@ tail -f backend/logs/app.log
 ```
 
 
----
-
-
----
 
 ## **7. Future Improvements**
 
