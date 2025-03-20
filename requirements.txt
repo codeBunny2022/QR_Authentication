@@ -1,0 +1,16 @@
+Flask
+Flask-Cors
+Werkzeug
+numpy
+opencv-python
+joblib
+tensorflow
+scikit-learn
+matplotlib
+seaborn
+Pillow
+scipy
+requests
+torch
+torchvision
+gunicorn
